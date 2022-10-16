@@ -47,11 +47,11 @@
 		function ver_saldo() {
 			var senha = parseFloat(prompt("Insira sua senha: "));
 
-			if (senha != 2502) {
+			if (senha != 3589) {
 				alert('Senha incorreta.');
 				ver_saldo()
 			}
-			else if (senha === 2502) {
+			else if (senha === 3589) {
 				alert('Seu saldo atual é: ' + saldo);
 				inicio();
 			}
@@ -64,7 +64,7 @@
 				alert('Senha incorreta.');
 				ver_extrato()
 			}
-			else if (senha === 2502) {
+			else if (senha === 3589) {
 				alert("Seu extrato:\nLojas Pernambucanas 100R$\n" + "Casas Bahia 200R$");
 				inicio()
 			}
@@ -82,7 +82,7 @@
 				fazer_saque();
 			}
 
-			if (senha != 2502) {
+			if (senha != 3589) {
 				alert('Senha incorreta.');
 				fazer_saque()
 			}
@@ -95,7 +95,7 @@
 				alert("Operação não autorizada");
 				fazer_saque();
 			}
-			else (senha === 2502); {
+			else (senha === 3589); {
 				saldo -= saque;
 				alert("Seu saldo atual é: " + saldo);
 				inicio();
@@ -131,7 +131,7 @@
 				fazer_transf();
 			}
 
-			else if (senha != 2502) {
+			else if (senha != 3589) {
 				alert('Senha incorreta.');
 				fazer_transf()
 			}
@@ -145,7 +145,7 @@
 				alert("Operação não autorizada");
 				fazer_transf();
 			}
-			else (senha === 2502); {
+			else (senha === 3589); {
 				saldo -= valorTrans;
 				alert("Seu saldo atual é: " + saldo);
 				inicio();
